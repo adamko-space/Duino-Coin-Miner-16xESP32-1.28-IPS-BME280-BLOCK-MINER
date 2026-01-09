@@ -1,5 +1,5 @@
 
-![App Screenshot](https://placehold.co/800x350)
+![App Screenshot](/img/minier-photo-main.png)
 # Duino-Coin Miner - 16xESP32 + 1,28 IPS + BME280 - BLOCK MINER
 Hello. I would like to present the duino-coin miner I made. The name block miner comes from block design. You can duplicate the module and create smart farm of miners. The display shows us mining and user statistics. The BME280 sensor controls the ambient temperature between the modules card ESP32. API and sensor data are refreshed with a 10-second interval and drawn on the display after each update.
 
@@ -12,7 +12,7 @@ Addition hardware:
 - BME280 sensor connected to the **I2C** bus.
 ## 2. GUI Features
 
-![App Screenshot](https://placehold.co/800x250)
+![App Screenshot](img/minier-photo-gui.png)
 
 I designed a graphical interface consistent with the Duino Coin's colors. It has four data screens. The screens automatically change every minute – you can change the time in display_manager.h.
 
@@ -317,9 +317,9 @@ DisplayManager display;
 ```
 ## 13. Miner photos
 
-![App Screenshot](https://placehold.co/800x350)
+![App Screenshot](img/minier-photo-1.png)
 
-![App Screenshot](https://placehold.co/800x350)
+![App Screenshot](img/minier-photo-2.png)
 
 
 ## 14. To do: [future]
@@ -333,13 +333,13 @@ DisplayManager display;
  - [Duino-Coin Github (miner files download)](https://github.com/revoxhere/duino-coin)
  - [TFT_eSPI Libary Github](https://github.com/Bodmer/TFT_eSPI)
  - [Adafruit BME280 Library](https://github.com/adafruit/Adafruit_BME280_Library)
- - [space.LAB](https://adamko.space/spacelab/)
+ - [space.LAB](https://lab.adamko.space)
 
 ## 16. Support
 
 For support my work, send DUCO to "adamco"
 
-or buy me a coffee on https://buycoffee.to/adamko.space.lab
+or buy me a coffee on https://buycoffee.to/lab.adamko.space
 
 
 
